@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collection</title>
-    <link>https://sandipb.github.io/</link>
+    <link>https://ref.sandipb.net/</link>
     <description>Recent content on Collection</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Dec 2017 19:15:21 -0800</lastBuildDate>
     
-	<atom:link href="https://sandipb.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ref.sandipb.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git</title>
-      <link>https://sandipb.github.io/git/</link>
+      <link>https://ref.sandipb.net/git/</link>
       <pubDate>Thu, 07 Dec 2017 19:15:21 -0800</pubDate>
       
-      <guid>https://sandipb.github.io/git/</guid>
+      <guid>https://ref.sandipb.net/git/</guid>
       <description> Common procedures  Remove a Submodule within git: Adding a submodule is easy, removing is such a pain  </description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://sandipb.github.io/golang/</link>
+      <link>https://ref.sandipb.net/golang/</link>
       <pubDate>Thu, 07 Dec 2017 18:06:18 -0800</pubDate>
       
-      <guid>https://sandipb.github.io/golang/</guid>
+      <guid>https://ref.sandipb.net/golang/</guid>
       <description> Best practices  Gophers, please tag your releases (Dave Cheney) - Tag your releases in preparation for better dependency tools coming in the future (2016-06-24)   </description>
     </item>
     
     <item>
       <title>Welcome</title>
-      <link>https://sandipb.github.io/post/collection/</link>
+      <link>https://ref.sandipb.net/post/collection/</link>
       <pubDate>Thu, 07 Dec 2017 17:33:24 -0800</pubDate>
       
-      <guid>https://sandipb.github.io/post/collection/</guid>
+      <guid>https://ref.sandipb.net/post/collection/</guid>
       <description>This is just a collection of my references on various topics.
 Current docs include:
  Golang Git  </description>
