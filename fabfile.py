@@ -5,6 +5,7 @@ from datetime import datetime
 def deploy():
     "Generate web pages and push to web site"
     with warn_only():
+      local("rm -rf public")
       local("hugo")
     local("rsync -avzr --delete --progress public/ sandipb@sandipb.net:ref.sandipb.net/")
 
