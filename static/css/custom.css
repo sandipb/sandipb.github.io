@@ -1,0 +1,15 @@
+nav a[href^="http://"]:after, nav a[href^="https://"]:after {
+	content: "";
+	background: url(/images/fa-external.png) center right no-repeat;
+    padding-right: 17px;
+}
+
+nav a[href^="http://localhost"]:after, nav a[href^="https://sandipb.github.io"]:after {
+	content: "";
+	background: none;
+    padding-right: 0;
+}
+
+article .post-entry a {
+	color: #008AFF;
+}

@@ -1,0 +1,57 @@
+baseURL = "https://sandipb.github.io/"
+languageCode = "en-us"
+title = "Collection"
+theme = "beautifulhugo"
+enableRobotsTXT = true
+# pygmentsCodeFences = true
+# pygmentsUseClasses = true
+canonifyurls = true
+publishDir = "docs"
+# Add your own params here
+[params]
+  author = "Sandip Bhattacharya"
+  # From https://pixabay.com/en/flat-design-symbol-icon-www-2126884/
+  avatar = "/images/flat-2126884_640.png"
+  # seotitle = "Hugo Blog (SEO Version)"
+  subtitle = "Keep documenting"
+  description = "Collection of reference docs"
+  paginate = 10
+  useChroma = true
+  # Choose your social networks
+  email = "sandipb@sandipb.net"
+  github = "sandipb"
+  twitter = "sandipb"
+  linkedin = "sandipb"
+  #weibo = "weibo_username"
+  #wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  # facebook = "facebook_username"
+  # google = "googlplus_id_number"
+  # instagram = "instagram_username"
+  # youtube = "youtube_username"
+  # vimeo = "vimeo_username"
+  # medium = "medium_username"
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Docs Index"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Golang"
+  weight = 15
+  identifier = "golang"
+  url = "/golang"
+
+[[menu.main]]
+  name = "Git"
+  weight = 20
+  identifier = "git"
+  url = "/git"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 30
+  identifier = "blog"
+  url = "https://blog.sandipb.net"
