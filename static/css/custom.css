@@ -4,7 +4,7 @@ nav a[href^="http://"]:after, nav a[href^="https://"]:after {
     padding-right: 17px;
 }
 
-nav a[href^="http://localhost"]:after, nav a[href^="https://sandipb.github.io"]:after {
+nav a[href^="http://localhost"]:after, nav a[href^="https://ref.sandipb.net"]:after {
 	content: "";
 	background: none;
     padding-right: 0;
