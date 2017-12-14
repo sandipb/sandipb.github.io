@@ -13,3 +13,8 @@ nav a[href^="http://localhost"]:after, nav a[href^="https://ref.sandipb.net"]:af
 article .post-entry a {
 	color: #008AFF;
 }
+
+article aside {
+	background: #f7f7f7;
+	padding: 0.5em;
+}
