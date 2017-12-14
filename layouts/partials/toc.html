@@ -1,0 +1,9 @@
+{{/* from https://gohugo.io/content-management/toc/*/}}
+{{ if and (eq .Type "page" ) (ne .Params.toc "false") }}
+<aside>
+    <header>
+    <h4>Contents</h4>
+    </header>
+    {{.TableOfContents}}
+</aside>
+{{ end }}

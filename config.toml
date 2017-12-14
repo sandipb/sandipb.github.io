@@ -1,6 +1,6 @@
 baseURL = "https://ref.sandipb.net/"
 languageCode = "en-us"
-title = "Collection"
+title = "sandipb.net : references"
 theme = "beautifulhugo"
 enableRobotsTXT = true
 # pygmentsCodeFences = true
