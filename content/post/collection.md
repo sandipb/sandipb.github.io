@@ -8,5 +8,6 @@ This is just a collection of my references on various topics.
 
 Current docs include:
 
-- [Golang](/golang)
-- [Git](/git)
+- <span class="fa fa-book" aria-hidden="true"></span> [Golang](/golang)
+- <span class="fa fa-book" aria-hidden="true"></span> [Docker](/docker)
+- <span class="fa fa-book" aria-hidden="true"></span> [Git](/git)

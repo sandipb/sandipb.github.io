@@ -6,15 +6,8 @@ draft: false
 
 # Best practices
 
-- [Gophers, please tag your releases (Dave Cheney)](http://dave.cheney.net/2016/06/24/gophers-please-tag-your-releases) - Tag your releases in preparation for better dependency tools coming in the future (2016-06-24)
-- [Idiomatic Go tricks](https://www.youtube.com/watch?v=yeetIgNeIkc) - By [Mat Ryer](https://medium.com/@matryer/), [companion blog post](https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88) (Youtube, 2016-09-09)
-
-# Important third party libraries
-
-- [GORM](http://jinzhu.me/gorm/): A popular Go <abbr title="Object-relational mapping">ORM</abbr>. Very well written usage documentation.
-- CLI (Command line libraries):
-    + [urfave CLI](https://github.com/urfave/cli): Formerly `codegangsta/cli`. Man page like extensive help formatting.
-    + [Cobra](https://github.com/spf13/cobra): Integrates with [Viper](https://github.com/spf13/viper), a config management library
+- [Gophers, please tag your releases (Dave Cheney)](http://dave.cheney.net/2016/06/24/gophers-please-tag-your-releases) - Tag your releases in preparation for better dependency tools coming in the future (_2016-06-24_)
+- [Idiomatic Go tricks](https://www.youtube.com/watch?v=yeetIgNeIkc) <span class="fa fa-youtube fa-lg" aria-hidden="true"></span> - _[Mat Ryer](https://medium.com/@matryer/),  2016-09-09, [companion blog post](https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88)_
 
 # Implementation articles
 
@@ -22,7 +15,15 @@ draft: false
 
 # Videos
 
-- [Testing and Benchmarking in Go Workshop](https://www.youtube.com/watch?v=ZeAkcs5g41k) (_[Gopher Guides]_,Youtube, 2017-11-30)
+- [Testing and Benchmarking in Go Workshop](https://www.youtube.com/watch?v=ZeAkcs5g41k) <span class="fa fa-youtube fa-lg" aria-hidden="true"></span> - _[Gopher Guides], 2017-11-30_
 
 
 [gopher guides]: https://www.gopherguides.com/
+
+# Important third party libraries
+
+- [GORM](http://jinzhu.me/gorm/): A popular Go <abbr title="Object-relational mapping">ORM</abbr>. Very well written usage documentation.
+- CLI (Command line libraries):
+    + [urfave CLI](https://github.com/urfave/cli) <span class="fa fa-github" aria-hidden="true"></span>: Formerly `codegangsta/cli`. Man page like extensive help formatting.
+    + [Cobra](https://github.com/spf13/cobra) <span class="fa fa-github" aria-hidden="true"></span>: Integrates with [Viper](https://github.com/spf13/viper) <span class="fa fa-github " aria-hidden="true"></span>, a config management library
+

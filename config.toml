@@ -44,6 +44,12 @@ canonifyurls = true
   url = "/golang"
 
 [[menu.main]]
+  name = "Docker"
+  weight = 16
+  identifier = "docker"
+  url = "/docker"
+
+[[menu.main]]
   name = "Git"
   weight = 20
   identifier = "git"
