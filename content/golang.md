@@ -1,9 +1,8 @@
 ---
-title: "Golang"
-date: 2017-12-07T18:06:18-08:00
-draft: false
----
+title: Golang
+date: 2017-12-08T02:06:18.000+00:00
 
+---
 # Best practices
 
 - [Gophers, please tag your releases (Dave Cheney)](http://dave.cheney.net/2016/06/24/gophers-please-tag-your-releases) - Tag your releases in preparation for better dependency tools coming in the future (_2016-06-24_)
@@ -25,5 +24,4 @@ draft: false
 - [GORM](http://jinzhu.me/gorm/): A popular Go <abbr title="Object-relational mapping">ORM</abbr>. Very well written usage documentation.
 - CLI (Command line libraries):
     + [urfave CLI](https://github.com/urfave/cli) <span class="fa fa-github" aria-hidden="true"></span>: Formerly `codegangsta/cli`. Man page like extensive help formatting.
-    + [Cobra](https://github.com/spf13/cobra) <span class="fa fa-github" aria-hidden="true"></span>: Integrates with [Viper](https://github.com/spf13/viper) <span class="fa fa-github " aria-hidden="true"></span>, a config management library
-
+    + [Cobra](https://github.com/spf13/cobra) <span class="fa fa-github" aria-hidden="true"></span>: Integrates with [Viper](https://github.com/spf13/viper) <span class="fa fa-github " aria-hidden="true"></span>, a config management library. Also uses [pflag](https://github.com/spf13/pflag), a more posix compliant flag library than the standard library one.
