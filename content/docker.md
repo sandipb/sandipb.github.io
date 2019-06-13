@@ -20,3 +20,4 @@ date: 2017-12-05T20:03:00.000+00:00
 # Books
 
 - [The Docker book](https://dockerbook.com/)
+- [Docker Deep Dive](https://www.amazon.com/Docker-Deep-Dive-Nigel-Poulton/dp/1521822808/)
