@@ -1,4 +1,4 @@
-baseURL = "https://ref.sandipb.net/"
+baseURL = "/"
 languageCode = "en-us"
 title = "sandipb.net : references"
 theme = "beautifulhugo"
