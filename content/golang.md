@@ -3,6 +3,10 @@ title: Golang
 date: 2017-12-08T02:06:18.000+00:00
 
 ---
+# Language features
+
+- [Working with Errors in Go 1.13](https://blog.golang.org/go1.13-errors): How to wrap errors, and best practices for wrapping (or not wrapping) errors.
+
 # Best practices
 
 - [Gophers, please tag your releases (Dave Cheney)](http://dave.cheney.net/2016/06/24/gophers-please-tag-your-releases) - Tag your releases in preparation for better dependency tools coming in the future (_2016-06-24_)
