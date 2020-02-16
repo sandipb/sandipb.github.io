@@ -14,6 +14,7 @@ date: 2017-12-08T02:06:18.000+00:00
 # 1. Clocks
 
 - {{<fa4 "fa-graduation-cap">}} [Time, Clocks, and  the Ordering of Events in a  Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf) {{<fa4 "fa-file-pdf-o">}} : Leslie Lamport's 1978 paper on ordering of events in a distributed system.
+- [Distributed Systems: Physical, Logical, and Vector Clocks](https://levelup.gitconnected.com/distributed-systems-physical-logical-and-vector-clocks-7ca989f5f780): Nice post by Joe Honour explaining logical and vector clocks
 
 # 2. CAP Theorem
 
