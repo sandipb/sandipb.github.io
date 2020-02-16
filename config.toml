@@ -7,6 +7,17 @@ enableRobotsTXT = true
 # pygmentsUseClasses = true
 canonifyurls = true
 # Add your own params here
+rssLimit = 50
+
+[taxonomies]
+  tag = "tags"
+  topic = "topics"
+  # category = "categories"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    page = "/:slug/"
+
 [params]
   author = "Sandip Bhattacharya"
   # From https://pixabay.com/en/flat-design-symbol-icon-www-2126884/
@@ -36,6 +47,13 @@ canonifyurls = true
   weight = 10
   identifier = "home"
   url = "/"
+
+
+[[menu.main]]
+  name = "Distributed Systems"
+  weight = 14
+  identifier = "distsys"
+  url = "/distributed_systems"
 
 [[menu.main]]
   name = "Golang"
