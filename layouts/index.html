@@ -1,58 +1,19 @@
-{{ define "main" }}
-  <div role="main" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        {{ with .Content }}
-          <div class="well">
-            {{.}}
-          </div>
-        {{ end }}
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
 
-        <div class="posts-list">
-          {{ range ( .Paginate (where .Site.RegularPages "Type" "post")).Pages }}
-            <article class="post-preview">
-              <a href="{{ .Permalink }}">
-                <h2 class="post-title">{{ .Title }}</h2>
-                {{ if .Params.subtitle }}
-                  <h3 class="post-subtitle">
-                  {{ .Params.subtitle }}
-                  </h3>
-                {{ end }}
-                {{ if .Params.image }}
-                <img src="{{ .Params.image }}" class="img-title" />
-                {{ end }}
-              </a>
-
-              {{ partial "post_meta.html" . }}
-              <div class="post-entry">
-                  {{ .Content }}
-              </div>
-              {{ if .Params.tags }}
-                <span class="post-meta">
-                {{ range .Params.tags }}
-                  #<a href="{{ $.Site.LanguagePrefix | absURL }}tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
-                {{ end }}
-                </span>
-              {{ end }}
-            </article>
-          {{ end }}
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-main-article-list">
+                    {{ range ( .Paginate (where .Site.RegularPages "Type" "post")).Pages }}
+                        <div class="li-article">
+                            {{ .Content}}
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
         </div>
-
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-          <ul class="pager main-pager">
-            {{ if .Paginator.HasPrev }}
-              <li class="previous">
-                <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; {{ i18n "newerPosts" }}</a>
-              </li>
-            {{ end }}
-            {{ if .Paginator.HasNext }}
-              <li class="next">
-                <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}/">{{ i18n "olderPosts" }} &rarr;</a>
-              </li>
-            {{ end }}
-          </ul>
-        {{ end }}
-      </div>
     </div>
-  </div>
-{{ end }}
+
+{{ partial "footer.html" . }}
+{{ partial "tail.html" . }}

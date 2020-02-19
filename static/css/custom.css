@@ -18,3 +18,12 @@ article aside {
 	background: #f7f7f7;
 	padding: 0.5em;
 }
+
+a,
+a:active,
+a:hover,
+a:visited {
+	color: #004df4;
+	text-decoration: underline dashed;
+    font-weight: bold;
+}
