@@ -1,7 +1,0 @@
-[context.production.environment]
-  HUGO_VERSION = "0.55.6"
-  HUGO_BASEURL = "https://ref.sandipb.net/"
-
-
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.55.6"
