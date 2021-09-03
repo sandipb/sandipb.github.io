@@ -7,7 +7,7 @@ services:
       - "8000:8000"
     volumes:
       - ./:/docs
-      - local_cache:/home/mkdocs/.local
+      - local_cache:/tmp/.local
     depends_on:
       - fix_perms
 
@@ -15,8 +15,12 @@ services:
     image: sandipb/mkdocs-material
     volumes:
       - ./:/docs
-      - local_cache:/home/mkdocs/.local
-    command: gh-deploy
+      - local_cache:/tmp/.local
+      - ${SSH_AUTH_SOCK}:/tmp/agent-sock
+    environment:
+      - SSH_AUTH_SOCK=/tmp/agent-sock
+    # command: gh-deploy
+    entrypoint: sh
     depends_on:
       - fix_perms
 
@@ -24,12 +28,13 @@ services:
     image: sandipb/mkdocs-material
     volumes:
       - ./:/docs
-      - local_cache:/home/mkdocs/.local
+      - local_cache:/tmp/.local
+      - ${SSH_AUTH_SOCK}:/tmp/agent-sock
     user: root
     entrypoint: [ "/bin/sh", "-c" ]
     command: 
       - >
-        chown -R mkdocs /home/mkdocs/.local &&
+        chown -R mkdocs:mkdocs /tmp &&
         su mkdocs -c "pip install --user -r /docs/requirements_mkdocs.txt"
 
 
