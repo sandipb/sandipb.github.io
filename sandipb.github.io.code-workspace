@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[markdown]": {
+			"editor.wordWrapColumn": 120,
+			"editor.wordWrap": "wordWrapColumn",
+			"editor.quickSuggestions": false,
+			"editor.rulers": [{
+					"column": 120,
+					"color": "#ff0000"
+			}]
+	}
+	}
+}

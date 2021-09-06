@@ -1,13 +1,14 @@
 # Golang
 
-## Language features
+## Language features and implementation details
 
 - [Working with Errors in Go 1.13](https://blog.golang.org/go1.13-errors): How to wrap errors, and best practices for wrapping (or not wrapping) errors.
+- [Inside the Map Implementation](https://www.youtube.com/watch?v=Tl7mi9QmLns) :fontawesome-brands-youtube:: By Keith Randall at GopherCon 2016.
 
 ## Best practices
 
 - [Gophers, please tag your releases (Dave Cheney)](http://dave.cheney.net/2016/06/24/gophers-please-tag-your-releases) - Tag your releases in preparation for better dependency tools coming in the future (_2016-06-24_)
-- [Idiomatic Go tricks](https://www.youtube.com/watch?v=yeetIgNeIkc) <span class="fa fa-youtube fa-lg" aria-hidden="true"></span> - _[Mat Ryer](https://medium.com/@matryer/),  2016-09-09, [companion blog post](https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88)_
+- [Idiomatic Go tricks](https://www.youtube.com/watch?v=yeetIgNeIkc) :fontawesome-brands-youtube: - _[Mat Ryer](https://medium.com/@matryer/),  2016-09-09, [companion blog post](https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88)_
 
 ## Implementation articles
 
@@ -15,8 +16,7 @@
 
 ## Videos
 
-- [Testing and Benchmarking in Go Workshop](https://www.youtube.com/watch?v=ZeAkcs5g41k) <span class="fa fa-youtube fa-lg" aria-hidden="true"></span> - _[Gopher Guides], 2017-11-30_
-
+- [Testing and Benchmarking in Go Workshop](https://www.youtube.com/watch?v=ZeAkcs5g41k)  :fontawesome-brands-youtube: - _[Gopher Guides], 2017-11-30_
 
 [gopher guides]: https://www.gopherguides.com/
 
@@ -24,5 +24,5 @@
 
 - [GORM](http://jinzhu.me/gorm/): A popular Go <abbr title="Object-relational mapping">ORM</abbr>. Very well written usage documentation.
 - CLI (Command line libraries):
-    + [urfave CLI](https://github.com/urfave/cli) <span class="fa fa-github" aria-hidden="true"></span>: Formerly `codegangsta/cli`. Man page like extensive help formatting.
-    + [Cobra](https://github.com/spf13/cobra) <span class="fa fa-github" aria-hidden="true"></span>: Integrates with [Viper](https://github.com/spf13/viper) <span class="fa fa-github " aria-hidden="true"></span>, a config management library. Also uses [pflag](https://github.com/spf13/pflag), a more posix compliant flag library than the standard library one.
+    - [urfave CLI](https://github.com/urfave/cli)  :fontawesome-brands-github:: Formerly `codegangsta/cli`. Man page like extensive help formatting.
+    - [Cobra](https://github.com/spf13/cobra)  :fontawesome-brands-github:: Integrates with [Viper](https://github.com/spf13/viper)  :fontawesome-brands-github:, a config management library. Also uses [pflag](https://github.com/spf13/pflag) :fontawesome-brands-github:, a more posix compliant flag library than the standard library one.
