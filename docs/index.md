@@ -6,5 +6,6 @@ Current docs include:
 
 - :fontawesome-solid-book: [Distributed Systems](/distributed_systems)
 - :fontawesome-solid-book: [Golang](/golang)
-- :fontawesome-solid-book: [Docker](/docker)
+- :fontawesome-solid-book: [Containers](/containers)
+- :fontawesome-solid-book: [Kubernetes](/kubernetes)
 - :fontawesome-solid-book: [Git](/git)

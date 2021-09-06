@@ -10,8 +10,10 @@ copyright: Copyright &copy; 2021 Sandip Bhattacharya. All content under CC-BY.
 
 nav:
   - Home: index.md
-  - Docker: docker.md
+  - Containers: containers.md
+  - Kubernetes: kubernetes.md
   - Distributed Systems: distributed_systems.md
+  - Performance: performance.md
   - Git: git.md
   - Golang: golang.md
   - Blog 🔗: "https://blog.sandipb.net"
