@@ -31,6 +31,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sandipb.github.io/linux_ubuntu/</loc>
+         <lastmod>2021-10-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sandipb.github.io/performance/</loc>
          <lastmod>2021-10-06</lastmod>
          <changefreq>daily</changefreq>
