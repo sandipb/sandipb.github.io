@@ -12,6 +12,7 @@ nav:
   - Home: index.md
   - Containers: containers.md
   - Kubernetes: kubernetes.md
+  - Gcloud Runbook: gcloud.md
   - Distributed Systems: distributed_systems.md
   - Performance: performance.md
   - Git: git.md
@@ -28,9 +29,9 @@ theme:
   # palette:
   #   primary: Teal
   #   accent: Indigo
-  feature:
-    tabs: true
-
+  features:
+    - tabs
+    - toc.integrate
 extra:
   repo_icon: github
 
