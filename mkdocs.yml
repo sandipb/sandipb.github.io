@@ -15,6 +15,7 @@ nav:
   - Distributed Systems: distributed_systems.md
   - Performance: performance.md
   - Git: git.md
+  - Linux/Ubuntu: linux_ubuntu.md
   - Golang: golang.md
   - Blog 🔗: "https://blog.sandipb.net"
 
