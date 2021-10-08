@@ -10,14 +10,19 @@ copyright: Copyright &copy; 2021 Sandip Bhattacharya. All content under CC-BY.
 
 nav:
   - Home: index.md
-  - Containers: containers.md
-  - Kubernetes: kubernetes.md
-  - Gcloud Runbook: gcloud.md
+  - Cloud:
+      - Containers: cloud-native/containers.md
+      - Kubernetes: cloud-native/kubernetes.md
+      - Gcloud Runbook: cloud-native/gcloud.md
   - Distributed Systems: distributed_systems.md
   - Performance: performance.md
   - Git: git.md
-  - Linux/Ubuntu: linux_ubuntu.md
-  - Golang: golang.md
+  - Operating Systems:
+      - Linux/Ubuntu: operating-systems/linux_ubuntu.md
+  - Programming:
+      - Golang: programming/golang.md
+  - Observability:
+      - Prometheus: observability/prometheus.md
   - Blog 🔗: "https://blog.sandipb.net"
 
 
