@@ -223,40 +223,61 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Cloud
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Cloud" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Cloud
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../containers/" class="md-nav__link">
+      <a href="../cloud-native/containers/" class="md-nav__link">
         Containers
       </a>
     </li>
   
 
-    
-      
-      
-      
-
+          
+            
   
   
   
     <li class="md-nav__item">
-      <a href="../kubernetes/" class="md-nav__link">
+      <a href="../cloud-native/kubernetes/" class="md-nav__link">
         Kubernetes
       </a>
     </li>
   
 
-    
-      
-      
-      
-
+          
+            
   
   
   
     <li class="md-nav__item">
-      <a href="../gcloud/" class="md-nav__link">
+      <a href="../cloud-native/gcloud/" class="md-nav__link">
         Gcloud Runbook
       </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -332,15 +353,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    References
+  <a href="#common-procedures" class="md-nav__link">
+    Common procedures
   </a>
+  
+    <nav class="md-nav" aria-label="Common procedures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#remove-git-submodules" class="md-nav__link">
+    Remove git submodules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revert-a-commit-in-the-past" class="md-nav__link">
+    Revert a commit in the past
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#common-procedures" class="md-nav__link">
-    Common procedures
+  <a href="#references" class="md-nav__link">
+    References
   </a>
   
 </li>
@@ -360,10 +401,37 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        Operating Systems
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Operating Systems" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Operating Systems
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../linux_ubuntu/" class="md-nav__link">
+      <a href="../operating-systems/linux_ubuntu/" class="md-nav__link">
         Linux/Ubuntu
       </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -375,10 +443,79 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      <label class="md-nav__link" for="__nav_7">
+        Programming
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Programming" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Programming
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../golang/" class="md-nav__link">
+      <a href="../programming/golang/" class="md-nav__link">
         Golang
       </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      <label class="md-nav__link" for="__nav_8">
+        Observability
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Observability" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Observability
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observability/prometheus/" class="md-nav__link">
+        Prometheus
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -416,13 +553,25 @@
                 
                 
                 <h1 id="git">Git<a class="headerlink" href="#git" title="Permanent link">&para;</a></h1>
+<h2 id="common-procedures">Common procedures<a class="headerlink" href="#common-procedures" title="Permanent link">&para;</a></h2>
+<h3 id="remove-git-submodules">Remove git submodules<a class="headerlink" href="#remove-git-submodules" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://davidwalsh.name/git-remove-submodule">Remove a Submodule within git</a>: Adding a submodule is easy, removing is such a pain</li>
+</ul>
+<h3 id="revert-a-commit-in-the-past">Revert a commit in the past<a class="headerlink" href="#revert-a-commit-in-the-past" title="Permanent link">&para;</a></h3>
+<p>tldr;</p>
+<ul>
+<li><code>git revert COMMIT</code></li>
+<li>or, for a range of changes: <code>git revert COMMIT_R0..COMMIT_Rn</code>.</li>
+</ul>
+<p>External resources:</p>
+<ul>
+<li>Tutorial: <a href="https://opensource.com/article/18/6/git-reset-revert-rebase-commands">How to reset, revert, and return to previous states in Git</a></li>
+<li>Ref: <a href="https://git-scm.com/docs/git-revert"><code>git-revert</code></a></li>
+</ul>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Using Git submodules</a>: No matter how less I want to use Git modules, I seem to need them all the time. Most of the time, whenever I use a program like <a href="https://gohugo.io/">Hugo</a> which has external extensions, I end up needing submodules.</li>
-</ul>
-<h2 id="common-procedures">Common procedures<a class="headerlink" href="#common-procedures" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://davidwalsh.name/git-remove-submodule">Remove a Submodule within git</a>: Adding a submodule is easy, removing is such a pain</li>
 </ul>
                 
               
@@ -459,7 +608,7 @@
       
       
         
-        <a href="../linux_ubuntu/" class="md-footer__link md-footer__link--next" aria-label="Next: Linux/Ubuntu" rel="next">
+        <a href="../operating-systems/linux_ubuntu/" class="md-footer__link md-footer__link--next" aria-label="Next: Linux/Ubuntu" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
