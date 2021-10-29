@@ -1,5 +1,5 @@
 # mkdocs related
-babel==2.9.0
+babel==2.9.1
 Jinja2==3.0.1
 Markdown==3.3.4
 markdown-include==0.6.0
