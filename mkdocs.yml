@@ -39,6 +39,11 @@ theme:
     - toc.integrate
 extra:
   repo_icon: github
+  analytics:
+    provider: custom
+    property: ref.sandipb.net 
+
+
 
 extra_css:
   - resources/stylesheets/extra.css
