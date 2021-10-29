@@ -19,10 +19,12 @@ nav:
   - Git: git.md
   - Operating Systems:
       - Linux/Ubuntu: operating-systems/linux_ubuntu.md
+      - Mac: operating-systems/mac.md
   - Programming:
       - Golang: programming/golang.md
   - Observability:
       - Prometheus: observability/prometheus.md
+      - TSDB: observability/tsdb.md
   - Blog 🔗: "https://blog.sandipb.net"
 
 
