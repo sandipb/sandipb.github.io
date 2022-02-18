@@ -98,3 +98,12 @@ ingress                   n1-standard-16  100           1.20.8-gke.900
 egress                    n2-standard-8   110           1.20.8-gke.900
 main-node-pool            n2-standard-32  300           1.20.8-gke.900
 ```
+
+### Adding maintenance exclusions
+
+```shell-session
+gcloud container clusters update cluster-a --region us-west1 \
+  --add-maintenance-exclusion-name vacation \
+  --add-maintenance-exclusion-start 2020-11-17T00:00:00 \
+  --add-maintenance-exclusion-end 2020-12-03T23:59:59
+```
