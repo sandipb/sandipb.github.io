@@ -397,6 +397,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#adding-maintenance-exclusions" class="md-nav__link">
+    Adding maintenance exclusions
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -709,6 +716,12 @@ and then add the new file back using:</p>
 <span class="go">ingress                   n1-standard-16  100           1.20.8-gke.900</span>
 <span class="go">egress                    n2-standard-8   110           1.20.8-gke.900</span>
 <span class="go">main-node-pool            n2-standard-32  300           1.20.8-gke.900</span>
+</code></pre></div>
+<h3 id="adding-maintenance-exclusions">Adding maintenance exclusions<a class="headerlink" href="#adding-maintenance-exclusions" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="go">gcloud container clusters update cluster-a --region us-west1 \</span>
+<span class="go">  --add-maintenance-exclusion-name vacation \</span>
+<span class="go">  --add-maintenance-exclusion-start 2020-11-17T00:00:00 \</span>
+<span class="go">  --add-maintenance-exclusion-end 2020-12-03T23:59:59</span>
 </code></pre></div>
                 
               
