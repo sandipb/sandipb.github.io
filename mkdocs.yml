@@ -25,6 +25,8 @@ nav:
   - Observability:
       - Prometheus: observability/prometheus.md
       - TSDB: observability/tsdb.md
+  - Cookbooks:
+      - Synology: cookbooks/synology.md
   - Blog 🔗: "https://blog.sandipb.net"
 
 
